@@ -1,0 +1,284 @@
+/*------------------------------------------ MEDIA QUERIES-------------------------------------------*/
+
+main.page_content section.presentation {
+  padding: 20px 15px 40px 15px;
+  background: #FAFAFA;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.presentation {
+    padding: 40px 30px 60px 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.presentation {
+    padding: 35px 30px 60px 30px;
+  }
+}
+
+main.page_content section.presentation div.presentation_inner {
+  display: inline;
+  position: relative;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.presentation div.presentation_inner {
+    display: block;
+    margin: 0 auto;
+    padding: 0 310px 0 0;
+    max-width: 900px;
+    min-height: 180px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.presentation div.presentation_inner {
+    padding: 0 420px 0 0;
+    min-height: 230px;
+  }
+}
+
+main.page_content section.presentation div.profile_picture_container {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 25px 0;
+  width: 200px;
+  height: 125px;
+  background: #EDEDED;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.presentation div.profile_picture_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 290px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.presentation div.profile_picture_container {
+    width: 370px;
+    height: 230px;
+  }
+}
+
+main.page_content section.presentation img.profile_picture {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -50px 0 0 -50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.presentation img.profile_picture {
+    margin: -70px 0 0 -70px;
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.presentation img.profile_picture {
+    margin: -88px 0 0 -88px;
+    height: 176px;
+    width: 176px;
+  }
+}
+
+main.page_content section.presentation p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F7F7F;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.presentation p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+main.page_content section.presentation a {
+  color: inherit;
+}
+
+main.page_content section.presentation a:hover {
+  text-decoration: underline;
+}
+
+
+/*-----------------------------------------------Portfolio Queries----------------------------------*/ 
+main.page_content section.portfolio {
+  padding: 40px 15px 60px 15px;
+  background: white;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.portfolio {
+    padding: 50px 25px 60px 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.portfolio {
+    padding: 0 30px;
+    background: #FAFAFA;
+  }
+}
+
+main.page_content div.portfolio_inner {
+  display: inline;
+}
+
+@media (min-width: 1024px) {
+  main.page_content div.portfolio_inner {
+    display: block;
+    margin: 0 auto;
+    padding: 55px 20px 60px 20px;
+    max-width: 980px;
+    background: white;
+  }
+}
+
+main.page_content section.portfolio h2 {
+  margin: 0 0 50px 0;
+}
+
+main.page_content section.portfolio ul {
+  margin: 0;
+  padding: 0;
+}
+
+main.page_content section.portfolio li {
+  margin: 0 0 30px 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.portfolio li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 60px 0;
+    padding: 0 5px;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.portfolio li {
+    padding: 0 10px;
+    width: 33.333%;
+  }
+}
+
+main.page_content section.portfolio li:last-child {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.portfolio li:nth-last-child(2) {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  main.page_content section.portfolio li:nth-last-child(3) {
+    margin: 0;
+  }
+}
+
+main.page_content section.portfolio img {
+  margin: 0 0 20px 0;
+  max-width: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+main.page_content section.portfolio a:hover img {
+  box-shadow: 0 13px 25px 0 rgba(0, 0, 0, 0.3);
+}
+
+main.page_content section.portfolio p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #4A4A4A;
+}
+
+/*------------------------------------------- Contact Queries---------------------------------*/ 
+
+main.page_content section.contact {
+  padding: 60px 15px;
+  background: #FAFAFA;
+}
+
+main.page_content section.contact h2 {
+  margin: 0 0 30px 0;
+}
+
+main.page_content section.contact p {
+  margin: 0 auto 25px auto;
+  padding: 0;
+  max-width: 550px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F7F7F;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.contact p {
+    margin: 0 auto 50px auto;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+main.page_content section.contact ul {
+  margin: 0;
+  padding: 0;
+}
+
+main.page_content section.contact li {
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style: none;
+  color: #7F7F7F;
+}
+
+@media (min-width: 768px) {
+  main.page_content section.contact li {
+    margin: 0 0 20px 0;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+main.page_content section.contact li:last-child {
+  margin: 0;
+}
+
+main.page_content section.contact li span {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px 0 0;
+}
+
+main.page_content section.contact a {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: 700;
+  color: inherit;
+}
